@@ -37,27 +37,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52a18c52-c023-4bf6-96a6-041e932b8a4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chips/atmega4809-hal/.cargo/config.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chips/atmega4809-hal/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chips/atmega4809-hal/src/adc.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chips/atmega4809-hal/src/lib.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chips/atmega4809-hal/src/port.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chips/atmega4809-hal/src/pwm.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chips/atmega4809-hal/src/wdt.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/avr-hal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/avr-hal.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/avr-hal-generic/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/avr-hal-generic/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boards/arduino-nano-every/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/boards/arduino-nano-every/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boards/arduino-nano-every/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/boards/arduino-nano-every/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boards/arduino-nano-every/src/pins.rs" beforeDir="false" afterPath="$PROJECT_DIR$/boards/arduino-nano-every/src/pins.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chips/atmega328p-hal/.cargo/config.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chips/atmega328p-hal/Cargo.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chips/atmega328p-hal/src/adc.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chips/atmega328p-hal/src/lib.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chips/atmega328p-hal/src/port.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chips/atmega328p-hal/src/pwm.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chips/atmega328p-hal/src/wdt.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chips/atmega4809-hal/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/chips/atmega4809-hal/Cargo.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606469801022</updated>
       <workItem from="1606469802827" duration="4954000" />
-      <workItem from="1606483042797" duration="8118000" />
+      <workItem from="1606483042797" duration="9030000" />
     </task>
     <task id="LOCAL-00001" summary="Branching and starting with the arduino-uno source to try and support Nano Every.">
       <created>1606473141589</created>
@@ -126,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606473141589</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="An I-can't-believe-it-builds version which should give basic access to the pins on the Nano Every...&#10;&#10;I'm only committing in this state because of Cargo's braindead handling of workspaces when using a local file path for a dependency...">
+      <created>1606495478978</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606495478978</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +147,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Branching and starting with the arduino-uno source to try and support Nano Every." />
-    <option name="LAST_COMMIT_MESSAGE" value="Branching and starting with the arduino-uno source to try and support Nano Every." />
+    <MESSAGE value="An I-can't-believe-it-builds version which should give basic access to the pins on the Nano Every...&#10;&#10;I'm only committing in this state because of Cargo's braindead handling of workspaces when using a local file path for a dependency..." />
+    <option name="LAST_COMMIT_MESSAGE" value="An I-can't-believe-it-builds version which should give basic access to the pins on the Nano Every...&#10;&#10;I'm only committing in this state because of Cargo's braindead handling of workspaces when using a local file path for a dependency..." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1626" y="763" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606482979651">
@@ -170,10 +159,10 @@
       <screen x="0" y="25" width="3840" height="2135" />
     </state>
     <state x="658" y="512" key="SettingsEditor/3840.295.3840.2135/0.25.3840.2135@0.25.3840.2135" timestamp="1606474781803" />
-    <state x="1335" y="989" key="Vcs.Push.Dialog.v2" timestamp="1606473161777">
+    <state x="1335" y="989" key="Vcs.Push.Dialog.v2" timestamp="1606495491490">
       <screen x="0" y="25" width="3840" height="2135" />
     </state>
-    <state x="1335" y="989" key="Vcs.Push.Dialog.v2/3840.295.3840.2135/0.25.3840.2135@0.25.3840.2135" timestamp="1606473161777" />
+    <state x="1335" y="989" key="Vcs.Push.Dialog.v2/3840.295.3840.2135/0.25.3840.2135@0.25.3840.2135" timestamp="1606495491490" />
     <state x="1714" y="811" width="838" height="1032" key="search.everywhere.popup" timestamp="1606493812296">
       <screen x="0" y="25" width="3840" height="2135" />
     </state>

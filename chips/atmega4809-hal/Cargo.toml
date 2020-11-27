@@ -11,5 +11,7 @@ rt = ["avr-device/rt"]
 avr-hal-generic = { path = "../../avr-hal-generic/" }
 
 [dependencies.avr-device]
+# @todo don't forget to change this to a proper repo, just as soon as you
+#       work out how to get build working then...
 path = "/Volumes/Development/Arduino/rust/avr-device"
 features = ["atmega4809"]

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/chips/atmega32u4-hal/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/avr-hal-generic/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/boards/arduino-uno/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/boards/arduino-uno/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chips/atmega328p-hal/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chips/atmega48p-hal/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/boards/trinket/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/boards/trinket/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chips/attiny85-hal/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/boards/sparkfun-pro-micro/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/boards/sparkfun-pro-micro/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chips/atmega2560-hal/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chips/attiny88-hal/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/boards/arduino-leonardo/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/boards/arduino-leonardo/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/boards/arduino-mega2560/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/boards/arduino-mega2560/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chips/atmega1280-hal/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chips/atmega168-hal/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/boards/bigavr6/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/boards/bigavr6/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/boards/arduino-diecimila/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/boards/arduino-diecimila/examples" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

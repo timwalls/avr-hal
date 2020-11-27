@@ -1,15 +1,15 @@
 [package]
-name = "arduino-leonardo"
+name = "arduino-nano-every"
 version = "0.1.0"
-authors = ["Rahix <rahix@rahix.de>"]
+authors = ["Tim Walls <tim.walls@snowgoons.com>", "Jonah Dahlquist <jonah@jonah.name>"]
 edition = "2018"
 
 [features]
 default = ["rt"]
-rt = ["atmega32u4-hal/rt"]
+rt = ["atmega328p-hal/rt"]
 
 [dependencies]
-atmega32u4-hal = { path = "../../chips/atmega32u4-hal/" }
+atmega328p-hal = { path = "../../chips/atmega328p-hal/", features = ["atmega328p"] }
 avr-hal-generic = { path = "../../avr-hal-generic/" }
 
 [dev-dependencies]

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:arduino-nano-every" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="52a18c52-c023-4bf6-96a6-041e932b8a4d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-diecimila/.cargo/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-diecimila/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-diecimila/examples/diecimila-blink.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-diecimila/examples/diecimila-panic.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-diecimila/examples/diecimila-pwm.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-diecimila/src/lib.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-diecimila/src/pins.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-leonardo/.cargo/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-leonardo/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-leonardo/examples/leonardo-adc.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-leonardo/examples/leonardo-blink.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-leonardo/examples/leonardo-i2cdetect.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-leonardo/examples/leonardo-interrupt.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-leonardo/examples/leonardo-panic.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-leonardo/examples/leonardo-pwm.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-leonardo/examples/leonardo-serial.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-leonardo/examples/leonardo-spi-feedback.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-leonardo/examples/leonardo-watchdog.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-leonardo/leonardo-runner.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-leonardo/src/lib.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-leonardo/src/pins.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-mega2560/.cargo/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-mega2560/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-mega2560/examples/mega2560-adc.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-mega2560/examples/mega2560-blink.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-mega2560/examples/mega2560-i2cdetect.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-mega2560/examples/mega2560-panic.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-mega2560/examples/mega2560-pwm.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-mega2560/examples/mega2560-serial.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-mega2560/examples/mega2560-spi-feedback.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-mega2560/src/lib.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-mega2560/src/pins.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-uno/.cargo/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-uno/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-uno/examples/uno-adc.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-uno/examples/uno-blink.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-uno/examples/uno-hc-sr04.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-uno/examples/uno-i2cdetect.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-uno/examples/uno-millis.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-uno/examples/uno-panic.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-uno/examples/uno-pwm.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-uno/examples/uno-serial.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-uno/examples/uno-spi-feedback.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-uno/examples/uno-watchdog.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-uno/src/lib.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-uno/src/pins.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/arduino-uno/uno-runner.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/bigavr6/.cargo/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/bigavr6/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/bigavr6/examples/bigavr6-blink.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/bigavr6/examples/bigavr6-i2cdetect.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/bigavr6/examples/bigavr6-panic.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/bigavr6/examples/bigavr6-serial.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/bigavr6/src/lib.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/sparkfun-pro-micro/.cargo/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/sparkfun-pro-micro/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/sparkfun-pro-micro/examples/pro-micro-adc.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/sparkfun-pro-micro/examples/pro-micro-blink.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/sparkfun-pro-micro/examples/pro-micro-i2cdetect.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/sparkfun-pro-micro/examples/pro-micro-interrupt.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/sparkfun-pro-micro/examples/pro-micro-panic.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/sparkfun-pro-micro/examples/pro-micro-pwm.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/sparkfun-pro-micro/examples/pro-micro-serial.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/sparkfun-pro-micro/examples/pro-micro-spi-feedback.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/sparkfun-pro-micro/pro-micro-runner.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/sparkfun-pro-micro/src/lib.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/sparkfun-pro-micro/src/pins.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/trinket/.cargo/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/trinket/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/trinket/examples/trinket-blink.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards/trinket/src/lib.rs" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="6yah8bhv" />
+  </component>
+  <component name="ProjectId" id="1krrxu8BrzYiblRHpblmiWjWY9c" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="settings.editor.selected.configurable" value="google.kubernetes.settings" />
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52a18c52-c023-4bf6-96a6-041e932b8a4d" name="Default Changelist" comment="" />
+      <created>1606469801022</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606469801022</updated>
+      <workItem from="1606469802827" duration="1160000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="arduino-nano-every" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,15 @@
+[package]
+name = "atmega4809-hal"
+version = "0.1.0"
+authors = ["Tim Walls <tim.walls@snowgoons.com>", "Jonah Dahlquist <jonah@jonah.name>"]
+edition = "2018"
+
+[features]
+rt = ["avr-device/rt"]
+
+[dependencies]
+avr-hal-generic = { path = "../../avr-hal-generic/" }
+
+[dependencies.avr-device]
+path = "/Volumes/Development/Arduino/rust/avr-device"
+features = ["atmega4809"]

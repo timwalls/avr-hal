@@ -12,25 +12,38 @@ pub trait PortExt {
     fn split(self) -> Self::Parts;
 }
 
-#[cfg(feature = "atmega328p")]
 avr_hal_generic::impl_generic_pin! {
     pub enum Pin {
-        B(crate::pac::PORTB, portb, pinb, ddrb),
-        C(crate::pac::PORTC, portc, pinc, ddrc),
-        D(crate::pac::PORTD, portd, pind, ddrd),
-    }
-}
-
-#[cfg(feature = "atmega328pb")]
-avr_hal_generic::impl_generic_pin! {
-    pub enum Pin {
+        A(crate::pac::PORTA, porta, pina, ddra),
         B(crate::pac::PORTB, portb, pinb, ddrb),
         C(crate::pac::PORTC, portc, pinc, ddrc),
         D(crate::pac::PORTD, portd, pind, ddrd),
         E(crate::pac::PORTE, porte, pine, ddre),
+        F(crate::pac::PORTF, portf, pinf, ddrf),
     }
 }
 
+avr_hal_generic::impl_port! {
+    pub mod porta {
+        #[port_ext]
+        use super::PortExt;
+
+        #[generic_pin]
+        use Pin::A;
+
+        impl PortExt for crate::pac::PORTA {
+            regs: (pina, ddra, porta),
+            pa0: (PA0, 0),
+            pa1: (PA1, 1),
+            pa2: (PA2, 2),
+            pa3: (PA3, 3),
+            pa4: (PA4, 4),
+            pa5: (PA5, 5),
+            pa6: (PA6, 6),
+            pa7: (PA7, 7),
+        }
+    }
+}
 
 avr_hal_generic::impl_port! {
     pub mod portb {
@@ -71,6 +84,7 @@ avr_hal_generic::impl_port! {
             pc4: (PC4, 4),
             pc5: (PC5, 5),
             pc6: (PC6, 6),
+            pc7: (PC7, 7),
         }
     }
 }
@@ -97,7 +111,6 @@ avr_hal_generic::impl_port! {
     }
 }
 
-#[cfg(feature = "atmega328pb")]
 avr_hal_generic::impl_port! {
     pub mod porte {
         #[port_ext]
@@ -112,6 +125,33 @@ avr_hal_generic::impl_port! {
             pe1: (PE1, 1),
             pe2: (PE2, 2),
             pe3: (PE3, 3),
+            pe4: (PE4, 4),
+            pe5: (PE5, 5),
+            pe6: (PE6, 6),
+            pe7: (PE7, 7),
         }
     }
 }
+
+avr_hal_generic::impl_port! {
+    pub mod portf {
+        #[port_ext]
+        use super::PortExt;
+
+        #[generic_pin]
+        use Pin::F;
+
+        impl PortExt for crate::pac::PORTF {
+            regs: (pinf, ddrf, portf),
+            pf0: (PF0, 0),
+            pf1: (PF1, 1),
+            pf2: (PF2, 2),
+            pf3: (PF3, 3),
+            pf4: (PF4, 4),
+            pf5: (PF5, 5),
+            pf6: (PF6, 6),
+            pf7: (PF7, 7),
+        }
+    }
+}
+

@@ -6,10 +6,10 @@ edition = "2018"
 
 [features]
 default = ["rt"]
-rt = ["atmega328p-hal/rt"]
+rt = ["atmega4809-hal/rt"]
 
 [dependencies]
-atmega328p-hal = { path = "../../chips/atmega328p-hal/", features = ["atmega328p"] }
+atmega4809-hal = { path = "../../chips/atmega4809-hal/" }
 avr-hal-generic = { path = "../../avr-hal-generic/" }
 
 [dev-dependencies]

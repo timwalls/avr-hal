@@ -25,6 +25,9 @@
       <sourceFolder url="file://$MODULE_DIR$/boards/bigavr6/examples" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/boards/arduino-diecimila/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/boards/arduino-diecimila/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/boards/arduino-nano-every/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/boards/arduino-nano-every/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chips/atmega4809-hal/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

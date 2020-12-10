@@ -63,54 +63,78 @@ avr_hal_generic::impl_board_pins! {
         ///
         /// * RXD (USART input pin)
         pub d0: portc::pc5::PC5,
+
         /// `D1` / `TX`
         ///
         /// * TXD (USART output pin)
         pub d1: portc::pc4::PC4,
+
         /// `D2`
         ///
         pub d2: porta::pa0::PA0,
+
         /// `D3`
         ///
         /// * **PWM**: [atmega328p_hal::timer::Timer3Pwm]
         /// * OC2B (Timer/Counter2 output compare match B output)
         pub d3: portf::pf5::PF5,
+
         /// `D4`
         ///
         pub d4: portc::pc6::PC6,
+
         /// `D5`
         ///
         /// * **PWM**: [atmega328p_hal::timer::Timer3Pwm]
         pub d5: portb::pb2::PB2,
+
         /// `D6`
         ///
         /// * **PWM**: [atmega328p_hal::timer::Timer3Pwm]
         pub d6: portf::pf4::PF4,
+
         /// `D7`
+        ///
         pub d7: porta::pa1::PA1,
+
         /// `D8`
         ///
         pub d8: porte::pe3::PE3,
+
         /// `D9`
         ///
         /// * **PWM**: [atmega328p_hal::timer::Timer3Pwm]
         pub d9: portb::pb0::PB0,
+
         /// `D10`
         ///
         /// * **PWM**: [atmega328p_hal::timer::Timer3Pwm]
         pub d10: portb::pb1::PB1,
+
         /// `D11`
         ///
         /// * MOSI (SPI bus master/slave input)
         pub d11: porte::pe0::PE0,
+
         /// `D12`
         ///
         /// * MISO (SPI bus master input/slave output)
         pub d12: porte::pe1::PE1,
+
         /// `D13`
         ///
         /// * SCK (SPI bus master clock input)
         /// * L LED on Arduino Nano Every
         pub d13: porte::pe2::PE2,
+
+        /// `led_tx`
+        ///
+        /// * TX0 (TX LED)
+        pub led_tx: portb::pb4::PB4,
+
+        /// `led_rx`
+        ///
+        /// * RX0 (RX LED)
+        pub led_rx: portb::pb5::PB5,
     }
 }
